@@ -1,0 +1,38 @@
+.mynav{
+    background:linear-gradient(to left , black , #333 , white ,#333) 
+}
+.navbar img{
+    width: 40px;
+}
+.mynav ul a{
+    transition: all 0.5s;
+}
+.mynav ul a:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black !important;
+    font-weight: bold;
+
+}
+
+.card{
+    text-align: center;
+    border: none;
+    transition: all 0.5s !important;
+}
+.card:hover{
+    width: 100% !important;
+    height: 100% !important;
+    border-width: 1% !important;
+    border: 1px solid gray;
+}
+.mynav input{
+transition: all 0.5s !important;
+
+}
+.mynav input:hover{
+border-radius: 30%;
+
+}
+
+
